@@ -32,6 +32,7 @@ async def help(ctx):
         "`!resume` – Link to engineering resume resources\n"
         "`!events` – See upcoming club events\n"
         "`!resources` – Get recommended CS learning materials\n"
+        "`!github` – Get a link to our GitHub repository\n"
     )
     await ctx.send(help_message)
 
@@ -67,6 +68,17 @@ async def resources(ctx):
         "- [The Odin Project](https://www.theodinproject.com/)\n"
         "- [FreeCodeCamp](https://www.freecodecamp.org/)\n"
         "- [LeetCode](https://leetcode.com/)"
+    )
+
+
+# !github command
+@bot.command()
+async def github(ctx):
+    """Command: Provides a link to the bot's GitHub repository."""
+    await ctx.send(
+        "🔗 **GitHub Repository:**\n"
+        "Check out our code and contribute: https://github.com/SyracuseUniversity/CuseBot\n"
+        "Star the repo if you find it helpful! ⭐"
     )
 
 
