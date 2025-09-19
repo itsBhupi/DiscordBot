@@ -82,7 +82,7 @@ async def contribute(ctx):
         "3. Make your changes\n"
         "4. Run tests\n"
         "5. Submit a pull request\n\n"
-        "For more details, check out our CONTRIBUTING.md: https://github.com/yourusername/DiscordBot/blob/main/CONTRIBUTING.md"
+        "For more details, check out our CONTRIBUTING.md: https://github.com/ACTUAL_USERNAME/DiscordBot/blob/main/CONTRIBUTING.md"
     )
 
 
